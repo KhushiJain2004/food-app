@@ -1,0 +1,107 @@
+.itemImage
+{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.cartContainer 
+{
+    text-align: left;
+    width:100%;
+}
+
+.table
+{
+    
+    width: 95%;
+    margin: auto;
+    /* margin: 0; */
+    margin-top:40px;
+
+
+}
+.table thead {
+
+    font-size:20px;
+    
+}
+.table th
+{
+    border-bottom: 2px solid #e2e2e2;
+    margin-bottom: 20px; 
+    padding:30px; 
+    padding-bottom: 20px;
+    /* margin-right: 70px ; */
+}
+.table td{
+    padding: 20px 32px ;
+    font-size: 19px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+button{
+    background-color: rgb(239, 115, 93);
+    color: white;
+    margin-left:0;
+}
+.cartTotal
+{
+    border: 1px solid #e2e2e2;
+    margin: auto;
+     width:40%;
+     margin-top: 40px;
+     padding: 20px;
+     font-size: 19px;;
+     margin-bottom: 50px;;
+}
+.cartTotal button
+{
+    width:200px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.details
+{
+    margin:15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.break{
+    margin-top:20px;
+   height: 1px;
+   background-color: #e2e2e2;
+   border:none;
+}
+.grand
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.quant
+{
+    display: inline-block;
+    background-color: white;
+    width:30px;
+    /* margin-right:5px ; */
+    font-size: 20px;
+    border-radius: 20%;
+    height: auto;
+    padding: 0px;
+    font-weight: bold;
+    margin: 0;
+    cursor: pointer;
+    user-select: none;
+}
+.minus
+{
+    color:red;
+    text-align: left;
+}
+.plus
+{
+    color:green;
+    text-align: right;
+}

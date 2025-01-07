@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'CustomFont';
+    src:url('../../assets/fonts/MandaScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.header 
+{
+    height: 88vh;
+    background:url('/food5.jpg') no-repeat  center center ;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 62%; /* Start the gradient overlay from the middle */
+    background: rgba(0, 0, 0, 0.3); /* Adjust the opacity as needed */
+    /* animation: fadeIn 2s  ; */
+}
+/* for smooth trnsition */
+/* .header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0%; 
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.6) 100%);
+    z-index: 0;
+} */
+.content
+{
+    text-align: center;
+    z-index: 1;
+    width:38%;
+    position: absolute;
+    top:50%;
+    right:2%;
+    color: whitesmoke;
+    transform: translate(5%  ,-50%);
+    font-size: 80px;
+    font-family: 'CustomFont';
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    /* animation: fadeInContent 1.5s  ;; */
+
+}
+.content button
+{
+    padding: 10px;
+    min-width: 120px;
+    border-radius: 20px;
+    border: 1px solid tomato;
+    font-size: 18px;;
+    font-weight: bold;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+@keyframes fadeInContent {
+    0% {
+        transform:  translateY(-50%) translateX(100px);
+    }
+    100% {
+        transform:  translateY(-50%) translateX(0);
+    }
+}
+
+

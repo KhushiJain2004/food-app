@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src:url('../../assets/fonts/MandaScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --navbar-height: 60px; 
+}
+#menuRef
+{
+    scroll-behavior: smooth;
+}
+.logo
+{
+    font-size: 45px;
+    /* font-weight: bold; */
+    font-family:'MyCustomFont',serif;
+    color: tomato;
+}
+.navbar
+{
+    position: sticky;
+    padding:15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+    z-index:100;
+    background-color: white;
+}
+.search
+{
+    margin: auto;
+    width:25px;
+    height:25px;;
+}
+.menu
+{
+    list-style: none;
+    display: flex;
+    gap:40px;
+    font-size: 20px;
+    color: #49557e;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.active
+{
+    padding-bottom: 2px;
+    border-bottom: 1.5px solid #49557e;
+}
+.right
+{
+    display: flex;
+    gap:35px;
+}
+.right button
+{
+    height: 33px;
+    margin: auto;
+    width: 84px;
+    border-radius:17px ;
+    border:1px solid tomato;
+    font-weight: bold;
+    background: transparent;
+    color:#49557e;
+    cursor:pointer;
+    font-size: 15px;
+    text-align: center;
+}
+.signin
+{
+    padding: 0;
+}
+.cart
+{
+    width:32px;
+    height:32px;
+    cursor: pointer;
+}
+.basket
+{
+    position: relative;
+}
+.dot
+{
+    position: absolute;
+    min-width: 18px;
+    min-height: 16px;
+    border-radius: 50%;
+    top:-8px;
+    right:-8px;
+    background-color:tomato;
+    color:white;
+    text-align: center;
+    font-size: small;
+}
+.visible
+{
+    display:none;
+}

@@ -1,0 +1,11 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.menu-display
+{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:25px;
+    justify-content: space-between;
+}

@@ -1,0 +1,72 @@
+.footer
+{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+}
+.footer-top
+{
+    display: flex;
+    gap:30px;
+    padding: 10px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.contact-info
+{
+
+/* margin-top: 30px; */
+ width: 100%;   
+ display: flex;
+ flex-direction: column;
+ gap:30px;
+ font-size: 18px;;
+}
+.contact-info h1{
+    margin-bottom: 10px;
+    color:tomato;
+}
+.info{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: left; */
+}
+
+.footer-bottom
+{
+    text-align: center;
+    color: #7c7a7a;
+    margin-top: 0px ;
+    /* padding: 15px; */
+}
+.msg-form 
+{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+
+}
+.msg{
+
+    padding: 20px;
+    width:50%;
+    /* margin-top: 30px;; */
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    /* justify-content: last baseline; */
+    align-items: center;
+}
+.msg-form input{
+    /* height:20px; */
+    padding: 7px;
+}
+.msg-form textarea
+{
+    padding: 5px;
+}
